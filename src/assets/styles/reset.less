@@ -1,0 +1,155 @@
+/* tabbar */
+.mint-tabbar{
+  background-color: #fff;
+  > .mint-tab-item{
+    &.is-selected{
+      color: #f95959;
+      background-color: transparent;
+    }
+    .mint-tab-item-icon{
+      margin-bottom: 0;
+    }
+    i{
+      font-size: 18px;
+    }
+  }
+}
+
+
+/* button */
+.btn-space-box{
+  .mint-button{
+    margin-right: 5px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.mint-button{
+  height: auto;
+  padding: 8px 12px;
+  &.no-padding{
+    padding:0;
+  }
+  &.mini-size{
+    padding: 5px 6px;
+  }
+  &.mint-button--white{
+    &.is-plain{
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: #fff
+    }
+  }
+  &.mint-button--ui{
+    background-color: #f95959;
+    color: #fff;
+  }
+  &.mint-button--disabled{
+    background-color: #bfbfbf;
+    color: #fff;
+  }
+  &.order-cancel-btn{
+    background-color: transparent;
+    color: #666;
+    box-shadow: 0;
+    border: 0.04rem solid #808080;
+  }
+  &.order-pay-btn{
+    background-color: #f95959;
+    box-shadow: 0;
+    border: 0.04rem solid #f95959;
+  }
+  &.order-repeat-btn{
+    background-color: transparent;
+    color: #f95959;
+    box-shadow: 0;
+    border: 0.04rem solid #f95959;
+  }
+}
+
+/* navbar */
+.mint-navbar{
+  box-sizing: content-box;
+  margin-bottom: 0.04rem;
+}
+.mint-navbar .mint-tab-item{
+  color: #808080;
+  border-bottom: 0.04rem solid #ccc;
+  font-size: 16px;
+  &.is-selected{
+      border-bottom: 0.1rem solid #f95959;
+      color: #f95959;
+      margin-bottom: 0;
+      *{
+        font-weight: 400;
+      }
+  }
+  .mint-tab-item-label{
+    font-size: 15px;
+  }
+}
+/* popup */
+.mint-popup{
+  &.full-screen{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* msg box */
+.mint-msgbox{
+  max-width: 280px;
+  border-radius: 10px;
+  .mint-msgbox-content{
+    border-bottom: 0.04rem solid #ccc;
+    padding: 20px 20px 25px;
+    .mint-msgbox-message{
+      color: #000;
+      font-size: 14px;
+    }
+  }
+  .mint-msgbox-btns{
+    button:active{
+      background-color: #eee;
+      transition: all .3s ease;
+    }
+    .mint-msgbox-cancel{
+      border-right: 0.04rem solid #ccc;
+    }
+    .mint-msgbox-confirm{
+      font-size: 14px;
+      color: #007BD4;
+    }
+  }
+
+}
+
+.mint-toast{
+  z-index: 3000;
+  &.toast-min-width{
+    min-width: 120px;
+  }
+}
+
+.mint-indicator{
+  .mint-indicator-wrapper{
+    z-index: 9000;
+  }
+  .mint-indicator-mask{
+    z-index: 8999;
+  }
+}
+
+
+
+.mint-cell-wrapper{
+  padding: 0 15px;
+}
+
+.mint-spinner-fading-circle{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
