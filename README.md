@@ -1,5 +1,9 @@
 # upp-web
-web版本
+公众号
+
+```
+  预览地址: https://pin.imike.com/h5/index.html#/index
+```
 
 ---
 ### 技术栈
